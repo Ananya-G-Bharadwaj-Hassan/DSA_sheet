@@ -1,8 +1,8 @@
 import java.util.Arrays;
-class Productofarray {
+class ProductOfArray {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
-        Productofarray obj = new Productofarray();
+        ProductOfArray obj = new ProductOfArray();
         int[] result = obj.productExceptSelf(nums);
         System.out.println(Arrays.toString(result));
     }
