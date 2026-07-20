@@ -2,7 +2,7 @@ class Duplicates {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 3, 4};
 
-        Solution obj = new Solution();
+        Duplicates obj = new Duplicates();
         boolean result = obj.containsDuplicate(arr);
 
         System.out.println(result);
