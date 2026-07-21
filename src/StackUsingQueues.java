@@ -1,5 +1,5 @@
 import java.util.*;
-class stackusingqueues {
+class StackUsingQueues {
     public Queue<Integer> queue = new LinkedList<>();
 
     public void push(int x) {
@@ -23,7 +23,7 @@ class stackusingqueues {
 class Main {
 public static void main(String[] args) {
 
-            stackusingqueues stack = new stackusingqueues();
+            StackUsingQueues stack = new StackUsingQueues();
 
             stack.push(10);
             stack.push(20);
